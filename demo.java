@@ -3,9 +3,9 @@ import java.sql.*;
 
 public class demo {
 	public static Connection conneted() throws Exception{
-		String url="jdbc:mysql://localhost:3306/librarydb";
+		String url="jdbc:mysql://localhost:3306/libraryDB";
 		String user="root";
-		String pass="open16";
+		String pass="root16";
 	Connection con=DriverManager.getConnection(url, user, pass);
 	
 	
@@ -14,3 +14,4 @@ return con;
 	}
 
 }
+
